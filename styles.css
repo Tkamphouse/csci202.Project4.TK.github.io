@@ -1,0 +1,13 @@
+h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: slateblue;
+}
+
+body {
+	padding: 100px;
+    background-color: rgb(0,32,54);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+
+  }
