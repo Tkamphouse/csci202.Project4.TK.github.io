@@ -169,21 +169,139 @@ a:active {
 
 /*************************** CAPTION BOXES *****************************/
 #b_cap1 {
+	z-index: 11;
 	position: relative;
-	top: -230px;
-	left: 340px;
-	height: 200px;
-    width: 230px;
+	top: -290px;
+	left: 440px;
+	height: 260px;
+    width: 300px;
 }
 
 #b_cap2 {
+	z-index: 11;
 	position: relative;
-	top: -610px;
-	left: 370px;
-	height: 230px;
-    width: 230px;
+	left: 36%;
+	top: -950px;
+    height: 260px;
+    width: 300px;
 }
 
+#b_cap3 {
+	z-index: 11;
+	position: relative;
+	left: 35%;
+	top: -1550px;
+    height: 260px;
+    width: 300px;
+}
+
+#c_cap1 {
+	z-index: 11;
+	position: relative;
+	top: -290px;
+	left: 440px;
+	height: 260px;
+    width: 300px;
+}
+
+#c_cap2 {
+	z-index: 11;
+	position: relative;
+	left: 32%;
+	top: -875px;
+    height: 340px;
+    width: 340px;
+}
+
+#c_cap3 {
+	z-index: 11;
+	position: relative;
+	left: 32%;
+	top: -875px;
+    height: 340px;
+    width: 340px;
+}
+
+#d_cap1 {
+	z-index: 11;
+	position: relative;
+	top: -290px;
+	left: 440px;
+	height: 260px;
+    width: 300px;
+}
+
+#d_cap2 {
+	z-index: 11;
+	position: relative;
+	left: 32%;
+	top: -875px;
+    height: 340px;
+    width: 340px;
+}
+
+#d_cap3 {
+	z-index: 11;
+	position: relative;
+	left: 32%;
+	top: -875px;
+    height: 340px;
+    width: 340px;
+}
+
+#e_cap1 {
+	z-index: 11;
+	position: relative;
+	top: -290px;
+	left: 440px;
+	height: 260px;
+    width: 300px;
+}
+
+#e_cap2 {
+	z-index: 11;
+	position: relative;
+	left: 32%;
+	top: -875px;
+    height: 340px;
+    width: 340px;
+}
+
+#e_cap3 {
+	z-index: 11;
+	position: relative;
+	left: 32%;
+	top: -875px;
+    height: 340px;
+    width: 340px;
+}
+
+#f_cap1 {
+	z-index: 11;
+	position: relative;
+	top: -290px;
+	left: 440px;
+	height: 260px;
+    width: 300px;
+}
+
+#f_cap2 {
+	z-index: 11;
+	position: relative;
+	left: 32%;
+	top: -875px;
+    height: 340px;
+    width: 340px;
+}
+
+#f_cap3 {
+	z-index: 11;
+	position: relative;
+	left: 32%;
+	top: -875px;
+    height: 340px;
+    width: 340px;
+}
 
 /*************************** POPUP Menu *****************************/
 #scroll-container {

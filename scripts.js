@@ -104,6 +104,84 @@ x.addEventListener("mouseout", mouseOutFunc_B2);
 function mouseOverFunc_B2() { document.getElementById("b_cap2").style.opacity = 1; }
 function mouseOutFunc_B2() { document.getElementById("b_cap2").style.opacity = 0; }
 
+var x = document.getElementById("b_image3");
+x.addEventListener("mouseover", mouseOverFunc_B3);
+x.addEventListener("mouseout", mouseOutFunc_B3);
+function mouseOverFunc_B3() { document.getElementById("b_cap3").style.opacity = 1; }
+function mouseOutFunc_B3() { document.getElementById("b_cap3").style.opacity = 0; }
+
+var x = document.getElementById("c_image1");
+x.addEventListener("mouseover", mouseOverFunc_C1);
+x.addEventListener("mouseout", mouseOutFunc_C1);
+function mouseOverFunc_C1() { document.getElementById("c_cap1").style.opacity = 1; }
+function mouseOutFunc_C1() { document.getElementById("c_cap1").style.opacity = 0; }
+
+var x = document.getElementById("c_image2");
+x.addEventListener("mouseover", mouseOverFunc_C2);
+x.addEventListener("mouseout", mouseOutFunc_C2);
+function mouseOverFunc_C2() { document.getElementById("c_cap2").style.opacity = 1; }
+function mouseOutFunc_BC() { document.getElementById("c_cap2").style.opacity = 0; }
+
+var x = document.getElementById("c_image3");
+x.addEventListener("mouseover", mouseOverFunc_C3);
+x.addEventListener("mouseout", mouseOutFunc_C3);
+function mouseOverFunc_C3() { document.getElementById("c_cap3").style.opacity = 1; }
+function mouseOutFunc_C3() { document.getElementById("c_cap3").style.opacity = 0; }
+
+var x = document.getElementById("d_image1");
+x.addEventListener("mouseover", mouseOverFunc_D1);
+x.addEventListener("mouseout", mouseOutFunc_D1);
+function mouseOverFunc_D1() { document.getElementById("d_cap1").style.opacity = 1; }
+function mouseOutFunc_D1() { document.getElementById("d_cap1").style.opacity = 0; }
+
+var x = document.getElementById("d_image2");
+x.addEventListener("mouseover", mouseOverFunc_D2);
+x.addEventListener("mouseout", mouseOutFunc_D2);
+function mouseOverFunc_D2() { document.getElementById("d_cap2").style.opacity = 1; }
+function mouseOutFunc_D2() { document.getElementById("d_cap2").style.opacity = 0; }
+
+var x = document.getElementById("d_image3");
+x.addEventListener("mouseover", mouseOverFunc_D3);
+x.addEventListener("mouseout", mouseOutFunc_D3);
+function mouseOverFunc_D3() { document.getElementById("d_cap3").style.opacity = 1; }
+function mouseOutFunc_D3() { document.getElementById("d_cap3").style.opacity = 0; }
+
+var x = document.getElementById("e_image1");
+x.addEventListener("mouseover", mouseOverFunc_E1);
+x.addEventListener("mouseout", mouseOutFunc_E1);
+function mouseOverFunc_E1() { document.getElementById("e_cap1").style.opacity = 1; }
+function mouseOutFunc_E1() { document.getElementById("e_cap1").style.opacity = 0; }
+
+var x = document.getElementById("e_image2");
+x.addEventListener("mouseover", mouseOverFunc_E2);
+x.addEventListener("mouseout", mouseOutFunc_E2);
+function mouseOverFunc_E2() { document.getElementById("e_cap2").style.opacity = 1; }
+function mouseOutFunc_E2() { document.getElementById("e_cap2").style.opacity = 0; }
+
+var x = document.getElementById("e_image3");
+x.addEventListener("mouseover", mouseOverFunc_E3);
+x.addEventListener("mouseout", mouseOutFunc_E3);
+function mouseOverFunc_E3() { document.getElementById("e_cap3").style.opacity = 1; }
+function mouseOutFunc_E3() { document.getElementById("e_cap3").style.opacity = 0; }
+
+var x = document.getElementById("f_image1");
+x.addEventListener("mouseover", mouseOverFunc_F1);
+x.addEventListener("mouseout", mouseOutFunc_F1);
+function mouseOverFunc_F1() { document.getElementById("f_cap1").style.opacity = 1; }
+function mouseOutFunc_F1() { document.getElementById("f_cap1").style.opacity = 0; }
+
+var x = document.getElementById("f_image2");
+x.addEventListener("mouseover", mouseOverFunc_F2);
+x.addEventListener("mouseout", mouseOutFunc_F2);
+function mouseOverFunc_F2() { document.getElementById("f_cap2").style.opacity = 1; }
+function mouseOutFunc_F2() { document.getElementById("f_cap2").style.opacity = 0; }
+
+var x = document.getElementById("f_image3");
+x.addEventListener("mouseover", mouseOverFunc_F3);
+x.addEventListener("mouseout", mouseOutFunc_F3);
+function mouseOverFunc_F3() { document.getElementById("f_cap3").style.opacity = 1; }
+function mouseOutFunc_F3() { document.getElementById("f_cap3").style.opacity = 0; }
+
 
 
 		
