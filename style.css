@@ -180,8 +180,8 @@ a:active {
 #b_cap2 {
 	z-index: 11;
 	position: relative;
-	left: 47%;
-	top: -950px;
+	left: 43%;
+	top: -980px;
     height: 260px;
     width: 300px;
 }
@@ -189,7 +189,7 @@ a:active {
 #b_cap3 {
 	z-index: 11;
 	position: relative;
-	left: 40%;
+	left: 38%;
 	top: -1550px;
     height: 260px;
     width: 300px;
