@@ -120,7 +120,7 @@ var x = document.getElementById("c_image2");
 x.addEventListener("mouseover", mouseOverFunc_C2);
 x.addEventListener("mouseout", mouseOutFunc_C2);
 function mouseOverFunc_C2() { document.getElementById("c_cap2").style.opacity = 1; }
-function mouseOutFunc_BC() { document.getElementById("c_cap2").style.opacity = 0; }
+function mouseOutFunc_C2() { document.getElementById("c_cap2").style.opacity = 0; }
 
 var x = document.getElementById("c_image3");
 x.addEventListener("mouseover", mouseOverFunc_C3);
