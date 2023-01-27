@@ -1,0 +1,324 @@
+@import "style2.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@keyframes openingTitle {
+	0% {color: rgb(255,0,0);}
+	10% {color: rgb(252, 205, 106);}
+	20% {color: rgb(251, 255, 91);}
+	30% {color: rgb(131, 255, 45);}
+	40% {color: rgb(5, 255, 194);}
+	50% {color: rgb(12, 223, 255);}
+	60% {color: rgb(67, 176, 255);}
+	70% {color: rgb(110, 103, 255);}
+	80% {color: rgb(157, 93, 255);}
+	90% {color: rgb(255, 96, 242);}
+	100% {color: rgb(255, 150, 150);}
+}
+
+h1 {
+	margin-top: 30;
+	position: relative;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+	animation-name: openingTitle;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+h2 {
+	margin-top: 30;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	text-align: 	center;
+    font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 50px;
+	
+	background-color: rgb(220,220,220);
+	border-style: outset;
+	border-width: 5px;
+    
+	animation-name: openingTitle;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+h4 {
+	top: -25px;
+	position: relative;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	text-align: 	center;
+    font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 25px;
+	
+	background-color: rgb(220,220,220);
+	border-style: outset;
+	border-width: 5px;
+}
+
+body {
+	overflow-x: hidden;
+	padding: 0px;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+
+}
+
+p {
+	padding: 4px;
+	background-color: rgb(220,220,220);
+	border-style: outset;
+	border-width: 5px;
+	opacity: 0;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+a {
+	font-weight: bold;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+  	font-size: 20px;
+  	animation-name: openingTitle;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+#a, #b, #c, #d, #e, #f {
+	padding-top: 30px;
+	width:  100%;
+	height: 800px;
+}
+
+#a {
+	background-color: rgb(220,250,230);
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+#b {
+	background-image: url("radioBackground.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align:center;
+	margin:auto;
+}
+
+#c {
+	background-image: url("ipodBackground.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align:center;
+	margin:auto;
+}
+
+#d {
+	background-image: url("streamingBackground.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align:center;
+	margin:auto;
+}
+
+#e {
+	background-image: url("genreBackground.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align:center;
+	margin:auto;
+}
+
+#f {
+	background-image: url("presentBackground.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align:center;
+	margin:auto;
+}
+
+
+/*************************** CAPTION BOXES *****************************/
+#b_cap1 {
+	position: relative;
+	top: -230px;
+	left: 340px;
+	height: 200px;
+    width: 230px;
+}
+
+#b_cap2 {
+	position: relative;
+	top: -610px;
+	left: 370px;
+	height: 230px;
+    width: 230px;
+}
+
+
+/*************************** POPUP Menu *****************************/
+#scroll-container {
+	overflow: hidden;
+	position: relative;
+}
+.wrap-container {
+	position: relative;
+	max-height: 175px;
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+	overflow: auto;
+	padding-right: 20px;
+	mask: url(#masking);
+	-webkit-mask-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, black), color-stop(1, transparent));
+}
+.wrap-container ul {
+	list-style: none;
+	position: relative;
+	transition: transform .3s;
+	top: 50px;
+}
+.wrap-container ul, .wrap-container ul li {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.wrap-container ul li {
+	height: 50px;
+	line-height: 50px;
+  	transition: transform .3s;
+  	overflow: hidden;
+}
+.wrap-container ul li:last-of-type { padding-bottom: 50px; }
+/*.wrap-container ul li.active .item { transform: scale(1.9); }*/
+.wrap-container ul li .item {
+	position: relative;
+	transition: transform 200ms;
+	display: inline-block;
+}
+
+
+/*************************** MODAL *****************************/
+button {
+	position: fixed;
+	left: 30px;
+	top: 50px;
+	background-color: rgb(220,220,220);
+	border-style: outset;
+	border-width: 5px;
+	font-size: 25px;
+	z-index: 10; 
+}
+
+/* The Modal (background) */
+.modal {
+  z-index: 9;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%; /* Full width */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: solid transparent; /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+	z-index: 10;
+	position: fixed;
+	margin-left: auto;
+    margin-right: auto;
+	left: 10px;
+	top: 110px;
+	background-color: rgb(220,220,220);
+	border-style: outset;
+	border-width: 5px;
+	height: 180px;
+	width: 25%;
+	-webkit-animation-name: slideIn;
+	-webkit-animation-duration: 0.5s;
+	animation-name: slideIn;
+	animation-duration: 0.5s;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  margin-right: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {left: -300px; top: 110px; opacity: 0}
+  to {left: 10; top: 110px; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {left: -300px; top: 110px; opacity: 0}
+  to {left: 10; top: 110px; opacity: 1}
+}
+
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes imageHoverOver {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes imageHoverOut {
+  from {opacity: 0} 
+  to {opacity: 1}
+}

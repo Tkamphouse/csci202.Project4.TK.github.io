@@ -2,14 +2,79 @@
 <html>
   	<head>
   		<title>Script Moment</title>
-  		<link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="styles.css">
+  		<link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="style.css">
   		<script src="scripts.js"></script>
   	</head>
 
   	<body>
-  		<center>
-  			<h1> WEBspace Invaiders </h1>
-  		</center>
+		<div id="myModal" class="modal">
+		  <div class="modal-content">
+			<span class="close">&times;</span>
+				<defs>
+					<linearGradient id="gradient" x1="0" y1="0%" x2 ="0" y2="50%">
+						<stop stop-color="black" offset="0"/>
+						<stop stop-color="white" offset="1"/>
+					</linearGradient>
+					<mask id="masking" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox">
+						<rect y="0" width="1" height="1" fill="url(#gradient)" />
+					</mask>
+				</defs>
+				<div id="scroll-container">
+					<div class="wrap-container" id="wrap-scroll">
+						<ul id="ul-scroll">
+							<li> <span class="item"> <a href="#a">Home</a> </span> </li>
+							<li> <span class="item"> <a href="#b">Radio Era</a> </span> </li>
+							<li> <span class="item"> <a href="#c">Ipod Era</a> </span> </li>
+							<li> <span class="item"> <a href="#d">Streaming Era</a> </span> </li>
+							<li> <span class="item"> <a href="#e">Multi-Genre Era</a> </span> </li>
+							<li> <span class="item"> <a href="#f">Present</a> </span> </li>
+						</ul>
+					</div>
+				</div>
+		    </div>
+		  </div>
+		
+		</div>
+
+  		<section id="a">
+  			<button id="myBtn">MENU</button>
+  			<center>
+  				<h1> My Music Taste:<br> Through TIME </h1>
+  			</center>
+  		</section>
+  		
+  		<section id="b">
+  			<h2> Radio Era </h2>
+  			<h4> -2008 </h4>
+  			<div class="b_image1" id="b_image1"></div>
+  			<p id="b_cap1">    cap 1    </p>
+  			<div class="b_image2" id="b_image2"></div>
+  			<p id="b_cap2">    cap 2    </p>  			
+  		</section>
+  		
+  		<section id="c">
+  			<h2> Ipod Era </h2>
+  			<h4> 2008 - 2013 </h4>
+  		</section>
+  		
+  		<section id="d">
+  			<h2> Streaming Era </h2>
+  			<h4> 2013 - 2016 </h4>
+  		</section>
+  		
+  		<section id="e">
+  			<h2> Multi-Genre Era </h2>
+  			<h4> 2016 - 2020 </h4>
+  		</section>
+  		
+  		<section id="f">
+  			<h2> The Present </h2>
+  			<h4> 2020+ </h4>
+  		</section>
+  		
+  		<script src="scripts.js"></script>
+  		
   	</body>
+  	
 </html>
   	
